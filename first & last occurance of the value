@@ -1,0 +1,29 @@
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+      Scanner sc=new Scanner(System.in);
+      int array[]={10,20,30,40,20};
+      int target=sc.nextInt();
+      int first = -1;
+      int last= -1;
+      for (int i=0;i<array.length;i++){
+        if ( array[i] == target){
+          if (first == -1){
+            first = i;
+          }
+          last = i;
+
+          }
+      }
+      if (first == -1){
+        System.out.println("element not found");
+
+      }
+      else{
+        System.out.println("first occurence:" +first);
+      
+          System.out.println("last occurance:" +last);
+        }
+    }
+}
