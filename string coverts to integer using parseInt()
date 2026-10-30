@@ -1,0 +1,17 @@
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+      Scanner sc=new Scanner(System.in);
+
+    System.out.println("enter the string 1");
+     String s1=sc.nextLine();
+    System.out.println("enter the string 2");
+     String s2=sc.nextLine();
+
+     int a= Integer.parseInt(s1);
+     int b= Integer.parseInt(s2);
+
+     System.out.println(a+b);
+    }
+}
