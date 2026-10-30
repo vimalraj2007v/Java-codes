@@ -21,9 +21,9 @@ public class Main {
 
       }
       else{
-        System.out.println("first occurence:" +first);
+        System.out.println("first occurrence:" +first);
       
-          System.out.println("last occurance:" +last);
+          System.out.println("last occurrence:" +last);
         }
     }
 }
