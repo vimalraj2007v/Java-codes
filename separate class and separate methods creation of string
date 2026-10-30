@@ -1,0 +1,36 @@
+import java.util.*;
+class calculator{
+ void addition(int s1, int s2){
+  int result=s1+s2;
+  System.out.println("addition: "+result);
+ }
+
+ void subtraction(int s1, int s2){
+  int result=s1-s2;
+  System.out.println("subtraction: "+result);
+ }
+  void multiplication(int s1, int s2){
+  int result=s1*s2;
+  System.out.println("multiplication: "+result);
+ }
+  double division(int s1, int s2){
+  double result=(double) s1/s2;
+    return result;
+ 
+ }
+}
+public class main{
+  public static void main(String[]args){
+    calculator c1=new calculator();
+    Scanner sc=new Scanner(System.in);
+    System.out.println("enter the value of s1:");
+    int s1=sc.nextInt();
+     System.out.println("enter the value of s2:");
+    int s2=sc.nextInt();
+  c1.addition(s1, s2);
+  c1.multiplication(s1, s2);
+  c1.subtraction(s1, s2);
+ System.out.println("division: " + c1.division(s1, s2));
+
+}
+}
