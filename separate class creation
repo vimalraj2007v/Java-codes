@@ -1,0 +1,21 @@
+import java.util.*;
+class student {
+  String name;
+  String dept;
+  String language;
+  String mark;
+
+}
+public class main{
+  public static void main(String[]args){
+    student s1=new student();
+  s1.name ="vimal";
+  s1.dept = "cse";
+  s1.language ="english";
+  s1.mark="90";
+  System.out.println(s1.name);
+ System.out.println(s1.dept);
+  System.out.println(s1.language);
+   System.out.println(s1.mark);
+}
+}
